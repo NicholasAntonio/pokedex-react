@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:25px;
+}
+
+header .logo,
+header .img-button{
+    width: 30px;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+header #change-theme-button {
+    background: none;
+    border: none;
+  }
+
+header .logo:hover,
+header .img-button:hover {
+  transform: scale(1.1);
+}
